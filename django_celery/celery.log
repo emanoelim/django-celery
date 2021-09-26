@@ -1,0 +1,52 @@
+[2021-09-26 00:11:21,272: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-09-26 00:11:21,283: INFO/MainProcess] mingle: searching for neighbors
+[2021-09-26 00:11:22,307: INFO/MainProcess] mingle: all alone
+[2021-09-26 00:11:22,328: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2021-09-26 00:11:22,329: INFO/MainProcess] celery@2d8836a9ae4e ready.
+[2021-09-26 00:13:03,767: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-09-26 00:13:03,776: INFO/MainProcess] mingle: searching for neighbors
+[2021-09-26 00:13:04,798: INFO/MainProcess] mingle: all alone
+[2021-09-26 00:13:04,831: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2021-09-26 00:13:04,831: INFO/MainProcess] celery@44bf51dabc08 ready.
+[2021-09-26 00:20:08,558: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-09-26 00:20:08,568: INFO/MainProcess] mingle: searching for neighbors
+[2021-09-26 00:20:09,588: INFO/MainProcess] mingle: all alone
+[2021-09-26 00:20:09,620: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2021-09-26 00:20:09,621: INFO/MainProcess] celery@9dee4e109f06 ready.
+[2021-09-26 00:22:06,595: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-09-26 00:22:06,603: INFO/MainProcess] mingle: searching for neighbors
+[2021-09-26 00:22:07,624: INFO/MainProcess] mingle: all alone
+[2021-09-26 00:22:07,641: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2021-09-26 00:22:07,641: INFO/MainProcess] celery@9dee4e109f06 ready.
+[2021-09-26 00:26:00,032: INFO/MainProcess] Received task: tasks.sample_task.create_task[6ca0120f-d066-4d2c-9579-33241a3914e6]  
+[2021-09-26 00:26:00,034: INFO/ForkPoolWorker-7] Task tasks.sample_task.create_task[6ca0120f-d066-4d2c-9579-33241a3914e6] succeeded in 0.0014552159700542688s: True
+[2021-09-26 00:27:19,291: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-09-26 00:27:19,301: INFO/MainProcess] mingle: searching for neighbors
+[2021-09-26 00:27:20,325: INFO/MainProcess] mingle: all alone
+[2021-09-26 00:27:20,338: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2021-09-26 00:27:20,339: INFO/MainProcess] celery@9dee4e109f06 ready.
+[2021-09-26 00:27:26,816: INFO/MainProcess] Received task: tasks.sample_task.create_task[5a54f2cb-4807-4015-a723-a10ceacf5fcc]  
+[2021-09-26 00:27:26,817: WARNING/ForkPoolWorker-7] Iniciando task...
+[2021-09-26 00:27:36,819: WARNING/ForkPoolWorker-7] Task finalizada!
+[2021-09-26 00:27:36,826: INFO/ForkPoolWorker-7] Task tasks.sample_task.create_task[5a54f2cb-4807-4015-a723-a10ceacf5fcc] succeeded in 10.009356274968013s: True
+[2021-09-26 00:29:49,998: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-09-26 00:29:50,009: INFO/MainProcess] mingle: searching for neighbors
+[2021-09-26 00:29:51,031: INFO/MainProcess] mingle: all alone
+[2021-09-26 00:29:51,063: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:205: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2021-09-26 00:29:51,063: INFO/MainProcess] celery@43fec58dc8a0 ready.
+[2021-09-26 00:30:05,557: INFO/MainProcess] Received task: tasks.sample_task.create_task[512beb7d-b6d8-4c52-8a0d-ae915dca44af]  
+[2021-09-26 00:30:05,558: WARNING/ForkPoolWorker-7] Iniciando task...
+[2021-09-26 00:30:15,567: WARNING/ForkPoolWorker-7] Task finalizada!
+[2021-09-26 00:30:15,574: INFO/ForkPoolWorker-7] Task tasks.sample_task.create_task[512beb7d-b6d8-4c52-8a0d-ae915dca44af] succeeded in 10.015359282959253s: True
