@@ -15,7 +15,7 @@ services:
 
   celery:
     build: ./django_celery
-    command: celery worker --app=django_celery --loglevel=info --logfile=logs/celery.log
+    command: celery -A django_celery worker --loglevel=info --logfile=logs/celery.log
     volumes:
       - ./django_celery:/usr/src/app/
       - ./django_celery:/usr/src/app/logs/
